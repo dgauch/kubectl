@@ -11,5 +11,7 @@ RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.1.3/bin/li
 RUN chmod +x kubectl
 RUN mv kubectl /usr/local/bin
 
+RUN apt-get install -y nano
+RUN apt-get install -y vim
 
 
